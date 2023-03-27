@@ -19,9 +19,9 @@ function calcularImpuesto(total) {
     return total * 1.15;
 }
 
-agregarCarrito(300);
-agregarCarrito(100);
-agregarCarrito(600);
+total = agregarCarrito(300);
+total = agregarCarrito(100);
+total = agregarCarrito(600);
 
 const totalPagar = calcularImpuesto(total);
 
