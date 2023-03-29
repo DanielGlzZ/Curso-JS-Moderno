@@ -1,0 +1,1224 @@
+{
+    "form_name": "AMPLIACIÓN DE MATRÍCULA",
+    "sections": [
+        {
+            "name_section": "DATOS DEL PARTICULAR",
+            "questions": [
+          {
+                "id": 15,
+                "key": "Nombre_titular",
+                "label": "NOMBRE DEL TITULAR O REPRESENTANTE LEGAL",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+          {
+                "id": 15,
+                "key": "Nombre_jurídica",
+                "label": "NOMBRE DE LA PERSONA JURIDICA",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+          {
+                "id": 15,
+                "key": "Tipo_de_sociedad",
+                "label": "TIPO DE SOCIEDAD",
+                "placeholder": "Si es persona moral, registre el tipo de sociedad",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              },
+          {
+                "id": 15,
+                "key": "Calle",
+                "label": "CALLE",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+          {
+                "id": 15,
+                "key": "Numero",
+                "label": "NÚMERO",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "Colonia",
+                "label": "COLONIA",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+            {
+                "id": 15,
+                "key": "Municipio",
+                "label": "MUNICIPIO",
+                "placeholder": "Seleccione uno de los municipios",
+                "type": {
+                  "id": 9,
+                  "type": "select",
+                  "description": "Campo Selector",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [
+                  "ACATIC", 
+                  "ACATLÁN DE JUÁREZ", 
+                  "AHUALULCO DE MERCADO", 
+                  "AMACUECA", 
+                  "AMATITÁN", 
+                  "AMECA", 
+                  "SAN JUANITO DE ESCOBEDO", 
+                  "ARANDAS",
+                  "EL ARENAL", 
+                  "ATEMAJAC DE BRIZUELA",
+                  "ATENGO",
+                  "ATENGUILLO",  
+                  "ATOTONILCO EL ALTO",
+                  "ATOYAC",
+                  "AUTLÁN DE NAVARRO",
+                  "AYOTLÁN",
+                  "AYUTLA",
+                  "LA BARCA",
+                  "BOLAÑOS",
+                  "CABO CORRIENTES",
+                  "CASIMIRO CASTILLO",
+                  "CIHUATLÁN",
+                  "ZAPOTLÁN EL GRANDE",
+                  "COCULA",
+                  "COLOTLÁN",
+                  "CONCEPCIÓN DE BUENOS AIRES",
+                  "CUAUTITLÁN DE GARCÍA BARRAGÁN",
+                  "CUAUTLA",
+                  "CUQUÍO",
+                  "CHAPALA",
+                  "CHIMALTITÁN",
+                  "CHIQUILISTLÁN",
+                  "DEGOLLADO",
+                  "EJUTLA",
+                  "ENCARNACIÓN DE DÍAZ",
+                  "ETZATLÁN",
+                  "EL GRULLO",
+                  "GUACHINANGO",
+                  "GUADALAJARA",
+                  "HOSTOTIPAQUILLO",
+                  "HUEJÚCAR",
+                  "HUEJUQUILLA EL ALTO",
+                  "LA HUERTA",
+                  "IXTLAHUACÁN DE LOS MEMBRILLOS",
+                  "IXTLAHUACÁN DEL RÍO",
+                  "JALOSTOTITLÁN",
+                  "JAMAY",
+                  "JESÚS MARÍA",
+                  "JILOTLÁN DE LOS DOLORES",
+                  "JOCOTEPEC",
+                  "JUANACATLÁN",
+                  "JUCHITLÁN",
+                  "LAGOS DE MORENO",
+                  "EL LIMÓN",
+                  "MAGDALENA",
+                  "SANTA MARÍA DEL ORO",
+                  "LA MANZANILLA DE LA PAZ",
+                  "MASCOTA",
+                  "MAZAMITLA",
+                  "MEXTICACÁN",
+                  "MEZQUITIC",
+                  "MIXTLÁN",
+                  "OCOTLÁN",
+                  "OJUELOS DE JALISCO",
+                  "PIHUAMO",
+                  "PONCITLÁN",
+                  "PUERTO VALLARTA",
+                  "VILLA PURIFICACIÓN",
+                  "QUITUPAN",
+                  "EL SALTO",
+                  "SAN CRISTÓBAL DE LA BARRANCA",
+                  "SAN DIEGO DE ALEJANDRÍA",
+                  "SAN JUAN DE LOS LAGOS",
+                  "SAN JULIÁN",
+                  "SAN MARCOS",
+                  "SAN MARTÍN DE BOLAÑOS",
+                  "SAN MARTÍN HIDALGO",
+                  "SAN MIGUEL EL ALTO",
+                  "GÓMEZ FARÍAS",
+                  "SAN SEBASTIÁN DEL OESTE",
+                  "SANTA MARÍA DE LOS ÁNGELES",
+                  "SAYULA",
+                  "TALA",
+                  "TALPA DE ALLENDE",
+                  "TAMAZULA DE GORDIANO",
+                  "TAPALPA",
+                  "TECALITLÁN",
+                  "TECHALUTA DE MONTENEGRO",
+                  "TECOLOTLÁN",
+                  "TENAMAXTLÁN",
+                  "TEOCALTICHE",
+                  "TEOCUITATLÁN DE CORONA",
+                  "TEPATITLÁN DE MORELOS",
+                  "TEQUILA",
+                  "TEUCHITLÁN",
+                  "TIZAPÁN EL ALTO",
+                  "TLAJOMULCO DE ZÚÑIGA",
+                  "SAN PEDRO TLAQUEPAQUE",
+                  "TOLIMÁN",
+                  "TOMATLÁN",
+                  "TONALÁ",
+                  "TONAYA",
+                  "TONILA",
+                  "TOTATICHE",
+                  "TOTOTLÁN",
+                  "TUXCACUESCO",
+                  "TUXCUECA",
+                  "TUXPAN",
+                  "UNIÓN DE SAN ANTONIO",
+                  "UNIÓN DE TULA",
+                  "VALLE DE GUADALUPE",
+                  "VALLE DE JUÁREZ",
+                  "SAN GABRIEL",
+                  "VILLA CORONA",
+                  "VILLA GUERRERO",
+                  "VILLA HIDALGO",
+                  "CAÑADAS DE OBREGÓN",
+                  "YAHUALICA DE GONZÁLEZ GALLO",
+                  "ZACOALCO DE TORRES",
+                  "ZAPOPAN",
+                  "ZAPOTILTIC",
+                  "ZAPOTITLÁN DE VADILLO",
+                  "ZAPOTLÁN DEL REY",
+                  "ZAPOTLANEJO",
+                  "SAN IGNACIO CERRO GORDO"
+                ],
+                "required": true,
+                "value": ""
+              },
+            {
+                "id": 15,
+                "key": "Telefono_Plantel",
+                "label": "TELÉFONO DEL PLANTEL",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 7,
+                  "type": "number",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+            {
+                "id": 15,
+                "key": "Numero_celular",
+                "label": "NÚMERO CELULAR",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 7,
+                  "type": "number",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "Correo_electrónico",
+                "label": "CORREO ELECTRÓNICO",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 9,
+                  "type": "email",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              }
+            ]
+          },
+          {
+            "name_section": "DATOS DEL AUTORIZADO",
+            "questions": [
+          {
+                "id": 15,
+                "key": "Nombre_autorizado",
+                "label": "NOMBRE DE LA PERSONA AUTORIZADA",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 1,
+                  "type": "text",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              },
+          {
+                "id": 15,
+                "key": "Correo_electronico_autorizado",
+                "label": "CORREO ELECTRÓNICO DE LA PERSONA AUTORIZADA",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 9,
+                  "type": "email",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              },
+          {
+                "id": 15,
+                "key": "Celular_autorizado",
+                "label": "CELULAR DE LA PERSONA AUTORIZADA",
+                "placeholder": "Escriba aqui",
+                "type": {
+                  "id": 7,
+                  "type": "number",
+                  "description": "Campo Texto",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              }
+            ]
+          },
+          {
+            "name_section": "SOLICITUD",
+            "questions": [
+              {
+                "id": 15,
+                "key": "f1",
+                "label": "FORMATO 1",
+                "placeholder": "FORMATO 1",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "acta_constitutiva",
+                "label": "ACTA CONSTITUTIVA",
+                "placeholder": "ACTA CONSTITUTIVA",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "curp",
+                "label": "CURP",
+                "placeholder": "CURP",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+           {
+                "id": 15,
+                "key": "identificacion_titular",
+                "label": "IDENTIFICACIÓN TITULAR",
+                "placeholder": "IDENTIFICACIÓN TITULAR",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+                {
+                "id": 15,
+                "key": "rfc",
+                "label": "RFC TITULAR",
+                "placeholder": "RFC",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": true,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "curp_autoriza",
+                "label": "CURP AUTORIZADO",
+                "placeholder": "CURP AUTORIZADO",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "identificacion_autorizado",
+                "label": "IDENTIFICACIÓN AUTORIZADO",
+                "placeholder": "IDENTIFICACIÓN AUTORIZADO",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              },
+              {
+                "id": 15,
+                "key": "rfc_autorizado",
+                "label": "RFC AUTORIZADO",
+                "placeholder": "RFC AUTORIZADO",
+                "type": {
+                  "id": 10,
+                  "type": "file",
+                  "description": "Campo adjuntos",
+                  "variant": null,
+                  "active": 1
+                },
+                "values_object": [],
+                "required": false,
+                "value": ""
+              }
+            ]
+          },  
+        {
+        "name_section": "INMUEBLES",
+        "questions": [
+          {
+            "id": 15,
+            "key": "documento",
+            "label": "DOCUMENTO",
+            "placeholder": "DOCUMENTO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "contrato_de_arrendamiento",
+            "label": "CONTRATO DE ARRENDAMIENTO",
+            "placeholder": "Escriba aqui",
+            "type": {
+              "id": 9,
+              "type": "select",
+              "description": "Campo Selector",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [
+              "CONTRATO DE COMODATO",
+              "BOLETA PREDIAL",
+              "ESCRITURA PUBLICA",
+              "OTRO"
+            ],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "PLANOS",
+        "questions": [
+          {
+            "id": 15,
+            "key": "plano_arquitectonico",
+            "label": "PLANO ARQUITECTÓNICO",
+            "placeholder": "PLANO ARQUITECTÓNICO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "plano_electrico",
+            "label": "PLANO ELÉCTRICO",
+            "placeholder": "PLANO ELÉCTRICO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "plano_hidraulico",
+            "label": "PLANO HIDRÁULICO",
+            "placeholder": "PLANO HIDRÁULICO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "plano_sanitario",
+            "label": "PLANO SANITARIO",
+            "placeholder": "PLANO SANITARIO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "plano_gas",
+            "label": "PLANO GAS",
+            "placeholder": "PLANO GAS",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "plano_aire",
+            "label": "PLANO AIRE",
+            "placeholder": "PLANO AIRE",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "cedula_dro",
+            "label": "CÉDULA DRO",
+            "placeholder": "CÉDULA DRO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "registro_dro",
+            "label": "REGISTRO DRO",
+            "placeholder": "REGISTRO DRO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "DICTAMENES",
+        "questions": [
+          {
+            "id": 15,
+            "key": "dictamen_estructural",
+            "label": "DICTAMEN ESTRUCTURAL",
+            "placeholder": "DICTAMEN ESTRUCTURAL",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "dictamen_electrico",
+            "label": "DICTAMEN ELÉCTRICO",
+            "placeholder": "DICTAMEN ELÉCTRICO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "dictamen_aire",
+            "label": "DICTAMEN AIRE",
+            "placeholder": "DICTAMEN AIRE",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "dictamen_gas",
+            "label": "DICTAMEN GAS",
+            "placeholder": "DICTAMEN GAS",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "dictamen_p_civil",
+            "label": "DICTAMEN P CIVIL",
+            "placeholder": "DICTAMEN P CIVIL",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "programa_interno_proteccion_civil",
+            "label": "PROGRAMA INTERNO PROTECCIÓN CIVIL",
+            "placeholder": "PROGRAMA INTERNO PROTECCIÓN CIVIL",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "INFEJAL",
+        "questions": [
+          {
+            "id": 15,
+            "key": "dictamen",
+            "label": "DICTAMEN",
+            "placeholder": "DICTAMEN",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "fecha",
+            "label": "FECHA",
+            "placeholder": "Escriba aqui",
+            "type": {
+              "id": 5,
+              "type": "date",
+              "description": "Campo Fecha",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "folio",
+            "label": "FOLIO",
+            "placeholder": "Escriba aqui",
+            "type": {
+              "id": 1,
+              "type": "text",
+              "description": "Campo Texto",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "IDENTIFICACIÓN PLANTEL",
+        "questions": [
+          {
+            "id": 15,
+            "key": "f4",
+            "label": "F4",
+            "placeholder": "F4",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "fotografia",
+            "label": "FOTOGRAFIAS",
+            "placeholder": "FOTOGRAFIAS",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "LICENCIA MUNICIPAL",
+        "questions": [
+          {
+            "id": 15,
+            "key": "documento",
+            "label": "DOCUMENTO",
+            "placeholder": "DOCUMENTO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "folio",
+            "label": "FOLIO",
+            "placeholder": "Escriba aqui",
+            "type": {
+              "id": 1,
+              "type": "text",
+              "description": "Campo Texto",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "fecha",
+            "label": "FECHA",
+            "placeholder": "Escriba aqui",
+            "type": {
+              "id": 5,
+              "type": "date",
+              "description": "Campo Fecha",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "giro",
+            "label": "GIRO",
+            "placeholder": "Escriba aqui",
+            "type": {
+              "id": 1,
+              "type": "text",
+              "description": "Campo Texto",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "PLANTILLA DE PERSONAL",
+        "questions": [
+          {
+            "id": 15,
+            "key": "a1",
+            "label": "A1",
+            "placeholder": "A1",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "acta_de_nacimiento",
+            "label": "ACTA DE NACIMIENTO",
+            "placeholder": "ACTA DE NACIMIENTO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "identificación",
+            "label": "IDENTIFICACIÓN",
+            "placeholder": "IDENTIFICACIÓN",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "rfc",
+            "label": "RFC",
+            "placeholder": "RFC",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "curp",
+            "label": "CURP",
+            "placeholder": "CURP",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "contrato_laboral",
+            "label": "CONTRATO LABORAL",
+            "placeholder": "CONTRATO LABORAL",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "titulo",
+            "label": "TÍTULO",
+            "placeholder": "TÍTULO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "cedula",
+            "label": "CÉDULA",
+            "placeholder": "CÉDULA",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "curriculum",
+            "label": "CURRICULUM",
+            "placeholder": "CURRICULUM",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "constancia_experiencia_laboral",
+            "label": "CONSTANCIA EXPERIENCIA LABORAL",
+            "placeholder": "CONSTANCIA EXPERIENCIA LABORAL",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "MOBILIARIO Y EQUIPO",
+        "questions": [
+          {
+            "id": 15,
+            "key": "anexo_2",
+            "label": "ANEXO 2",
+            "placeholder": "ANEXO 2",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          },
+          {
+            "id": 15,
+            "key": "anexo_5",
+            "label": "anexo 5",
+            "placeholder": "ANEXO 5",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "PRIMEROS AUXILIOS",
+        "questions": [
+          {
+            "id": 15,
+            "key": "a2_media_superior",
+            "label": "ANEXO 2 MEDIA SUPERIOR",
+            "placeholder": "ANEXO 2 MEDIA SUPERIOR",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "CONDICIONES DEL PLANTEL",
+        "questions": [
+          {
+            "id": 15,
+            "key": "a2_media_superior",
+            "label": "ANEXO 2 MEDIA SUPERIOR",
+            "placeholder": "ANEXO 2 MEDIA SUPERIOR",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "ACUERDO ANTERIOR (ADICIONAL)",
+        "questions": [
+          {
+            "id": 15,
+            "key": "documento",
+            "label": "DOCUMENTO",
+            "placeholder": "DOCUMENTO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name_section": "REFRENDO ANTERIOR (ADICIONAL)",
+        "questions": [
+          {
+            "id": 15,
+            "key": "documento",
+            "label": "DOCUMENTO",
+            "placeholder": "DOCUMENTO",
+            "type": {
+              "id": 10,
+              "type": "file",
+              "description": "Campo adjuntos",
+              "variant": null,
+              "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+          }
+        ]
+    },
+        {
+        "name_section": "ESCRITO LIBRE (ADICIONAL)",
+        "questions": [
+            {
+            "id": 15,
+            "key": "documento",
+            "label": "DOCUMENTO",
+            "placeholder": "DOCUMENTO",
+            "type": {
+                "id": 10,
+                "type": "file",
+                "description": "Campo adjuntos",
+                "variant": null,
+                "active": 1
+            },
+            "values_object": [],
+            "required": true,
+            "value": ""
+            }
+            ]
+        }
+    ]
+}
